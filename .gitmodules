@@ -16,6 +16,6 @@
 [submodule "unittests/vendors/php-timer"]
 	path = unittests/vendors/php-timer
 	url = git://github.com/sebastianbergmann/php-timer.git
-[submodule "unittests/vendors/php-mock-objects"]
-	path = unittests/vendors/php-mock-objects
+[submodule "unittests/vendors/phpunit-mock-objects"]
+	path = unittests/vendors/phpunit-mock-objects
 	url = git://github.com/sebastianbergmann/phpunit-mock-objects.git
