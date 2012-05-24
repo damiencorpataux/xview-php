@@ -9,4 +9,13 @@
 
 class ProcessTests extends xView_PHPUnit_Framework_TestCase {
 
+    function test_tag_php() {
+        $result = xView::render('tag_php');
+        $this->assertSame('This is a PHP tag test', $result);
+    }
+
+    function test_tag_echo() {
+        $result = xView::render('tag_echo');
+        $this->assertSame('This is a ECHO tag test', $result);
+    }
 }

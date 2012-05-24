@@ -34,7 +34,9 @@ abstract class xView_PHPUnit_Framework_TestCase extends PHPUnit_Framework_TestCa
 
     function setUp() {
         // Loads xView Library
-        require_once('../../lib/View.php');
+        require_once(dirname(__file__).'../../lib/View.php');
+        // Setup path to default views path
+        xView::$path = dirname(__file__).'/views';
     }
 }
 
